@@ -8,6 +8,8 @@ import lombok.experimental.Wither;
 
 import java.util.Map;
 
+import static java.lang.Math.*;
+
 /**
  * @author Evgeny Borisov
  */
@@ -26,6 +28,7 @@ public class PolicyService {
 
 
     public double calcPolicyForPrivate() {
+
         return 0;
     }
 
