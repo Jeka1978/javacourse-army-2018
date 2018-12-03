@@ -16,6 +16,16 @@ public class Person {
     private int salary;
 
 
+    @Test
+    private void myTest2() {
+        System.out.println("test 22222222222");
+    }
+
+
+    public void testPersonState() {
+        System.out.println("THis method is test method, but shouldn't be here");
+    }
+
 }
 
 

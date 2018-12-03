@@ -42,6 +42,11 @@ public class Knight implements Character {
 
     }
 
+    @Override
+    public void registryMyself(CharacterFactory factory) {
+        factory.registry(Knight::new);
+    }
+
     public static void main(String[] args) {
         Knight knight = new Knight();
         for (int i = 0; i < 5; i++) {
